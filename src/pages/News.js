@@ -46,6 +46,7 @@ const News = () => {
       <Logo />
       <Navigation />
       <h1>Blog</h1>
+      <p>How to use - ...</p>
       <form onSubmit={(e) => handleSubmit(e)}>
         <input
           onChange={(e) => setAuthor(e.target.value)}

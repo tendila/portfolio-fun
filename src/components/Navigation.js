@@ -17,7 +17,7 @@ const Navigation = () => {
         Polkadot
       </NavLink>
       <NavLink exact to="about" activeClassName="nav-active">
-        About
+        Resume
       </NavLink>
     </div>
   );
