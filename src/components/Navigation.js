@@ -13,6 +13,9 @@ const Navigation = () => {
       <NavLink exact to="news" activeClassName="nav-active">
         Blog
       </NavLink>
+      <NavLink exact to="jokes" activeClassName="nav-active">
+        French Jokes
+      </NavLink>
       <NavLink exact to="polkadot" activeClassName="nav-active">
         Polkadot
       </NavLink>

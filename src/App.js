@@ -6,6 +6,7 @@ import News from "./pages/News.js";
 import Polkadot from "./pages/Polkadot.js";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import WorldFlag from "./pages/WorldFlag";
+import Jokes from "./pages/Jokes";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/about" exact component={About} />
         <Route path="/news" exact component={News} />
         <Route path="/polkadot" exact component={Polkadot} />
+        <Route path="/jokes" exact component={Jokes} />
 
         <Route component={NotFound} />
       </Switch>

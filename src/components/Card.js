@@ -4,7 +4,7 @@ const Card = (props) => {
   const { country } = props;
 
   const numberFormat = (x) => {
-    return x.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, " ");
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   };
   return (
     <li className="card">

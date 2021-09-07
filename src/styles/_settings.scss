@@ -4,7 +4,7 @@ $font-1: "Poppins", sans-serif;
 
 $color-1: #61dafb;
 $color-2: #f7f7f7;
-$color-3: #282c34;
+$color-3: #c2a0df;
 $color-4: rgb(32, 35, 42);
 
 * {
@@ -16,8 +16,9 @@ body {
   margin: 0.4rem auto;
   max-width: 1296px;
   font-family: $font-1;
-  color: $color-3;
-  background-color: $color-2;
+  color: $color-2;
+  //background-color: $color-2;
+  background: url(../assets/wallp1.jpg);
 }
 li {
   list-style-type: none;
